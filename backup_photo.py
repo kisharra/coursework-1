@@ -35,7 +35,7 @@ def upload_to_yadisk(token, photo_url, file_name):
     if response.status_code == 202:
         print(f"Photo '{file_name}' uploaded successfully to Yandex.Disk")
     else:
-        print(f"Error uploading photo '{file_name}' to Yandex.Disk:", response.text)
+        print(f"Error uploading photo '{file_name}' to Yandex.Disk:", response.txt)
 
 # Функция для сохранения информации о фотографиях в JSON-файл
 def save_to_json(data):
